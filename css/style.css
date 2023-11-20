@@ -299,8 +299,14 @@ footer span {
     .container {
         width: 100%;
     }
+    #icon {
+        display: flex;
+        flex-direction: column;
+    }
     header nav {
         display: none;
+        margin: auto;
+        margin-top: 190px;    
     }
     header nav ul li {
         display: block;
@@ -310,6 +316,7 @@ footer span {
     header .container #menu-icon {
         display: block;
         color: var(--mainColor);
+        position: absolute;
     }
     .landing .container {
         flex-direction: column-reverse;
